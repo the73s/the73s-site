@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>THE73S — Oficial</title>
+  <style>
+    :root{--bg:#0b0b0b;--card:#111;--accent:#e64;}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#fff;line-height:1.4}
+    .wrap{max-width:900px;margin:30px auto;padding:20px}
+    header{text-align:center}
+    header img{max-width:220px;height:auto;border-radius:6px}
+    h1{margin:.4rem 0;font-size:1.8rem}
+    p.lead{opacity:.9}
+    .links{display:flex;flex-direction:column;gap:12px;margin:18px 0}
+    .btn{display:block;padding:12px 16px;background:var(--card);color:#fff;text-decoration:none;border-radius:8px;text-align:center;font-weight:700}
+    .btn.small{padding:8px 10px;font-size:.9rem}
+    .video{margin-top:18px}
+    iframe{width:100%;height:300px;border:0;border-radius:8px}
+    footer{margin-top:26px;text-align:center;font-size:.9rem;opacity:.8}
+    @media(min-width:600px){.links{flex-direction:row;flex-wrap:wrap}.btn{flex:1}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="logo.jpg" alt="THE73S logo" />
+      <h1>THE73S</h1>
+      <p class="lead">Rock desde Los Ángeles — nueva música y shows</p>
+    </header>
+
+    <div class="links">
+      <a class="btn" href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" rel="noopener">Ver video 1</a>
+      <a class="btn" href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" rel="noopener">Ver video 2</a>
+      <a class="btn" href="https://tudominio.com/lpk" target="_blank" rel="noopener">LPK</a>
+      <a class="btn" href="mailto:contacto@the73s.com" class="small">Contacto / Booking</a>
+    </div>
+
+    <section class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+      Síguenos: <a href="#" style="color:#fff">Instagram</a> • <a href="#" style="color:#fff">YouTube</a>
+    </footer>
+  </div>
+</body>
+</html>
